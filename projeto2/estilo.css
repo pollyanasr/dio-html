@@ -31,14 +31,17 @@ section {
 }
 
 .menu {
-    width: 20vw;
+    
+    width: 15vw;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
 .menu ul {
+    position: fixed;
     list-style-type: none;
     padding: 0;
+    width: 200px;
 }
 
 .menu a {
@@ -46,6 +49,7 @@ section {
     color: #333;
     display: block;
     padding: 10px 0;
+    width: 200px;
 }
 
 .menu a:hover {
